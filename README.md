@@ -1,5 +1,7 @@
 # IC PCDA CAPSTONE PROJECT – Time Series Regression in Python with ML - Harry Bakhshi
-My capstone project repository for my Imperial College Professional Certificate in Data Analytics (Nov 2023 - July 2024).
+My capstone project repository for my Imperial College Professional Certificate in Data Analytics (Nov 2023 - July 2024):
+
+https://harry-b6.github.io/IC_PCDA_capstone_Harry_Bakhshi/
 
 ## Background
 
