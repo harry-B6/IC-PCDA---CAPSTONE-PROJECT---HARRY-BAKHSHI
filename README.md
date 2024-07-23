@@ -24,6 +24,10 @@ To exemplify this solution, one variable (the sales price of an individual produ
 
 The data source:  https://datahack.analyticsvidhya.com/contest/janatahack-demand-forecasting/True/#ProblemStatement
 
+## How to use this project
+
+After cloning the project, to use the adapted source code (adapted from Manu Joseph project - https://github.com/PacktPublishing/Modern-Time-Series-Forecasting-with-Python) in the src folder (used in some of the notebooks - https://github.com/harry-B6/IC_PCDA_capstone_Harry_Bakhshi/tree/main/main/src) simply add the src folder (and panel data conversion module if using) to the python environment path and for each notebook install extra packages required (commented out at the stage of the project in the Jupyter notebooks).
+
 ## Challenges and Future Work
 
 The first challenge encountered in this project was how best to work with the panel dataset. I chose to convert the data to a multivariate time series by binning the sales price, base price, units sold values, and featured/display aggregations for each product per timestamp, using justifiable measures selected from measures of central tendency (mean, median, mode) to ensure as much robustness to outliers as possible. Additionally, I created a module for parallel computing to enable parallel conversion of the panel data to a multivariate time series, creating a time series for each metric, product and store combination (= 10640 variables). This worked and was written to be as time- and memory- efficient as possible after much testing and re-examination of the code, implemented with the ability to pause and resume the code. However I chose to create variables only for each product and metric combination due to the time constraints of my capstone project and concerns about the likely forecastability of the majority of the 10640 variables created by the parallel conversion implemention.
@@ -31,6 +35,12 @@ The first challenge encountered in this project was how best to work with the pa
 In order to reproducibly measure seasonality after my chosen method of Fourier decomposition, I wrote my own implementation using matrixprofile-ts (see https://github.com/target/matrixprofile-ts/tree/master). I created a pipeline for this to perform this process on each product and metric combination. Similarly, I produced an additional pipeline to detect and treat outliers by seasonal/non-seasonal IQR and iForest. After baseline forecasting, forecastability assessments (by C.o.V., Residual Variability, (Residual/) Spectral Entropy, (Modified/) Kaboudan Metric) and making the data weakly stationary for both seasonal and non-seasonal variables (more pipelines), I was not able to automate hyperparameter tuning using GridSearch with my time constraints. This method was lengthy for my target variable in total after performing for each of my 6 models (excluding Linear Regression) and may have been faster using a random search approach.
 
 In the future I would like to experiment with approaches adapted to panel data. Two examples of these approaches are Bayes predictors adapted to panel data forecasting (6)(7) or deep learning methods that allow direct sequence to sequence predictions, such as sequence-to-sequence Regression using Deep Learning (7)(8).
+
+## Acknowledgements
+
+I am grateful to Vikesh Koul (https://github.com/vkoul/vkoul), the Program Leader for my cohort of the I.C. PCDA for his support in my training for my Imperial College Professional Certificate in Data Analytics certification, and to Manu Joseph for his publication Modern Time Series Forecasting with Python, which I purchased through Perlego (https://www.perlego.com). The supplementary notebooks to the explantations in this book helped me form my own solutions to my project data problem. Both the book and the notebooks helped enrich my understanding of time series forecasting with regression using machine learning.
+
+I am also grateful to my cohort of the I.C. PCDA (Nov. 2023 – July 2024), for their insightful contributions to group work on the course and your unique perspectives shared from many different domains, and to Dr. Alex Ribeiro-Castro, Dr. Fintan Nagle, and Prof. Wolfram Wiesemann, for their time and efforts in contributing to the educational content of the I.C. PCDA programme.
 
 ## Bibliography (for README)
 
