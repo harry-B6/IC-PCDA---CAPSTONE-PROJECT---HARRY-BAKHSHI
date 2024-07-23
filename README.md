@@ -12,7 +12,8 @@ This project implements Time Series Regression with machine learning in Python o
 - sales price
 - units sold
 - base price
-- extent to which product is prominently featured/on special display in store (aggregatations from counts from dataset)
+- extent to which product is prominently featured in store (aggregatations from counts from dataset)
+- extent to which product is on special display in store (aggregatations from counts from dataset)
 
 To exemplify this solution, one variable (the sales price of an individual product) was forecast from 873 features containing 135 original variables (from product + metric combinations). These features were produced by first converting the panel data to a multivariate time series, and then by engineering more features using seasonal/non-seasonal Rolling Window aggregations, the EWMA, and temporal and Fourier terms. 4 were found to be non-forecastable by coefficent of variation and residual varaibility and were dropped. The selection of linear and non-linear approaches used were:
 
