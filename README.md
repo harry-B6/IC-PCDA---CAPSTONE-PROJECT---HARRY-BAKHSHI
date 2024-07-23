@@ -38,7 +38,7 @@ In the future I would like to experiment with approaches adapted to panel data. 
 
 ## Acknowledgements
 
-I am grateful to Vikesh Koul (https://github.com/vkoul/vkoul), the Program Leader for my cohort of the I.C. PCDA for his support in my training for my Imperial College Professional Certificate in Data Analytics certification, and to Manu Joseph for his publication Modern Time Series Forecasting with Python, which I purchased access to through Perlego (https://www.perlego.com). The supplementary notebooks to the explantations in this book helped me form my own solutions to my project data problem. Both the book and the notebooks helped enrich my understanding of time series forecasting with regression using machine learning.
+I am grateful to Vikesh Koul (https://github.com/vkoul/vkoul), the Program Leader for my cohort of the Imperial College Professional Certificate in Data Analytics, for his support in my training for my I.C. PCDA certification, and to Manu Joseph for his publication "Modern Time Series Forecasting with Python", which I purchased access to through Perlego (https://www.perlego.com). The supplementary notebooks to the explantations in this book helped me form my own solutions to my project data problem. Both the book and the notebooks helped enrich my understanding of time series forecasting with regression using machine learning.
 
 I am also grateful to my cohort of the I.C. PCDA (Nov. 2023 – July 2024), for their insightful contributions to group work on the course and your unique perspectives shared from many different domains, and to Dr. Alex Ribeiro-Castro, Dr. Fintan Nagle, and Prof. Wolfram Wiesemann, for their time and efforts in contributing to the educational content of the I.C. PCDA programme.
 
