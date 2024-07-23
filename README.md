@@ -20,8 +20,8 @@ To exemplify this solution, one variable (the sales price of an individual produ
 - Linear Regression
 - Lasso Regression
 - Linear Support Vector Regression (SVR)  
-- XGBoost
-- LightGBM
+- XGBoost Regression
+- LightGBM Regression
 - Decision Tree Regression
 - Random Forest Regression
 
