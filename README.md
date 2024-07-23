@@ -31,6 +31,7 @@ The data source:  https://datahack.analyticsvidhya.com/contest/janatahack-demand
 After cloning the project, to use the adapted source code (adapted from Manu Joseph project - https://github.com/PacktPublishing/Modern-Time-Series-Forecasting-with-Python) in the src folder (used in some of the notebooks - https://github.com/harry-B6/IC_PCDA_capstone_Harry_Bakhshi/tree/main/main/src), simply add the src folder (and panel data conversion module if using) to the PYTHONPATH and for each notebook install extra packages required (commented out at the stage of the project in the Jupyter notebooks).
 
 This project has an MIT license: https://github.com/harry-B6/IC_PCDA_capstone_Harry_Bakhshi/blob/main/LICENSE   
+
 Please read the license before first use of the project.   
 Please adhere to this license when using this project and reproduce it when required.   
 
