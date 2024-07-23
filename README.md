@@ -32,7 +32,7 @@ After cloning the project, to use the adapted source code (adapted from Manu Jos
 
 This project has a GNU GPLv2 license: https://github.com/harry-B6/IC_PCDA_capstone_Harry_Bakhshi/blob/main/LICENSE   
 
-Please read the license before first use of the project.   
+Please read the license in full before first use of the project.   
 Please adhere to this license when using this project and reproduce it when required.   
 
 ## Challenges and Future Work
