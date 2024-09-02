@@ -1,6 +1,7 @@
 # IC PCDA CAPSTONE PROJECT - Harry Bakhshi – Multivariate Time Series Forecasting in Python with ML
 My capstone project repository for my Imperial College Professional Certificate in Data Analytics (Nov 2023 - July 2024):
 
+Summary page:
 https://harry-b6.github.io/IC_PCDA_capstone_Harry_Bakhshi/
 
 ## Background
